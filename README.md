@@ -6,6 +6,7 @@
 
 - GitHub Pages 網站：<https://lm1668-cpu.github.io/secondary-school-hub/>
 - `index.html`：首頁及資訊導覽
+- `faq.html`：直資中一申請 FAQ；內容標示 2027/28 入學及 2025/2027 年度 SSPA 週期，逐題連結教育局／校方官方來源
 - `worksheet.html`：三校比較工作紙；表單內容不會送往伺服器或寫入瀏覽器儲存空間
 - `style.css`：響應式及列印樣式
 - `app.js`：列印／清除工作紙功能，沒有分析追蹤程式
