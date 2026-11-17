@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b3a">
+  <meta name="description" content="免登入三校比較工作紙：記錄 2027/28 直資中一申請的 SSPA 狀態、招生資料、學費及官方來源，並可列印或另存 PDF。">
+  <title>三校比較工作紙｜升中同學會</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="worksheet-page">
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header wrap worksheet-header">
+    <a class="brand" href="index.html" aria-label="返回升中同學會首頁"><span class="brand-mark" aria-hidden="true">升<span>↗</span></span><span class="brand-name">升中同學會<small>直資申請與比較工作台</small></span></a>
+    <a class="header-cta" href="index.html">返回首頁 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main" class="wrap worksheet-main">
+    <div class="worksheet-title-row">
+      <div><p class="eyebrow">2027/28 中一入學 · 免登入工作紙</p><h1>三校比較，<br class="mobile-only">由來源開始。</h1><p class="worksheet-lead">先逐校找官方資料，再按一家人的需要比較。未知項目留空，等校方公布後再填；這張工作紙不會替你打分或預測錄取機會。</p></div>
+      <div class="worksheet-actions screen-only"><button class="button button-primary" type="button" data-print>列印／另存 PDF <span aria-hidden="true">↗</span></button><button class="button button-quiet" type="button" data-reset-form="comparison-form">清除填寫內容</button></div>
+    </div>
+    <div class="privacy-banner screen-only"><strong>私隱提示</strong><span>你填寫的內容只在目前瀏覽器頁面使用，不會傳送或保存到網站。關閉頁面前請先列印或另存 PDF。</span></div>
+    <form id="comparison-form" autocomplete="off">
+      <div class="comparison-grid">
+        <fieldset class="school-sheet"><legend><span>A</span>學校 A</legend>
+          <label>學校名稱<input type="text" name="a-school" placeholder="自行填寫"></label>
+          <label>本屆 SSPA 狀態<input type="text" name="a-sspa" placeholder="參加／不參加／待核實"></label>
+          <label>本年度中一招生狀態<input type="text" name="a-intake" placeholder="已確認招生／待公布／待核實"></label>
+          <label>申請日期及步驟<textarea name="a-dates" rows="2" placeholder="起止日期、遞交方法、文件要求"></textarea></label>
+          <label>學費（學年／年級）及減免入口<textarea name="a-fees" rows="2" placeholder="未公布請留空；附校方計劃入口"></textarea></label>
+          <label>官方來源及核對日期<textarea name="a-source" rows="2" placeholder="網址或公告名稱；日／月／年"></textarea></label>
+          <label>適合我們的原因／仍待確認<textarea name="a-notes" rows="2" placeholder="按家庭需要記錄，不需學生個人敏感資料"></textarea></label>
+        </fieldset>
+        <fieldset class="school-sheet"><legend><span>B</span>學校 B</legend>
+          <label>學校名稱<input type="text" name="b-school" placeholder="自行填寫"></label>
+          <label>本屆 SSPA 狀態<input type="text" name="b-sspa" placeholder="參加／不參加／待核實"></label>
+          <label>本年度中一招生狀態<input type="text" name="b-intake" placeholder="已確認招生／待公布／待核實"></label>
+          <label>申請日期及步驟<textarea name="b-dates" rows="2" placeholder="起止日期、遞交方法、文件要求"></textarea></label>
+          <label>學費（學年／年級）及減免入口<textarea name="b-fees" rows="2" placeholder="未公布請留空；附校方計劃入口"></textarea></label>
+          <label>官方來源及核對日期<textarea name="b-source" rows="2" placeholder="網址或公告名稱；日／月／年"></textarea></label>
+          <label>適合我們的原因／仍待確認<textarea name="b-notes" rows="2" placeholder="按家庭需要記錄，不需學生個人敏感資料"></textarea></label>
+        </fieldset>
+        <fieldset class="school-sheet"><legend><span>C</span>學校 C</legend>
+          <label>學校名稱<input type="text" name="c-school" placeholder="自行填寫"></label>
+          <label>本屆 SSPA 狀態<input type="text" name="c-sspa" placeholder="參加／不參加／待核實"></label>
+          <label>本年度中一招生狀態<input type="text" name="c-intake" placeholder="已確認招生／待公布／待核實"></label>
+          <label>申請日期及步驟<textarea name="c-dates" rows="2" placeholder="起止日期、遞交方法、文件要求"></textarea></label>
+          <label>學費（學年／年級）及減免入口<textarea name="c-fees" rows="2" placeholder="未公布請留空；附校方計劃入口"></textarea></label>
+          <label>官方來源及核對日期<textarea name="c-source" rows="2" placeholder="網址或公告名稱；日／月／年"></textarea></label>
+          <label>適合我們的原因／仍待確認<textarea name="c-notes" rows="2" placeholder="按家庭需要記錄，不需學生個人敏感資料"></textarea></label>
+        </fieldset>
+      </div>
+    </form>
+    <aside class="worksheet-reminder"><strong>核對提醒</strong><span>「參加／不參加 SSPA」與「本年度有否招收中一」是兩項不同資料；日期及學費要標示適用年度，並以校方或教育局最新公布為準。</span></aside>
+    <div class="worksheet-source screen-only"><a href="https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/secondary-spa/general-info/index.html" target="_blank" rel="noopener noreferrer">教育局 · 中學學位分配辦法及直資學校申請入口 ↗</a><a href="https://www.edb.gov.hk/tc/edu-system/primary-secondary/applicable-to-primary-secondary/direct-subsidy-scheme/info-sch.html" target="_blank" rel="noopener noreferrer">教育局 · 直資計劃學校資料 ↗</a></div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">升<span>↗</span></span><span class="brand-name">升中同學會<small>直資申請與比較工作台</small></span></a><p>獨立資訊整理，非教育局或學校官方平台。學校本年度安排以正式公布為準。</p><a class="back-top" href="#main">返回頁首 ↑</a></div></footer>
+</body>
+</html>
